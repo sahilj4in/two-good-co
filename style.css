@@ -163,6 +163,48 @@ body{
     height:200px;
 }
 
+#writing{
+    height: 50vh;
+    width: 100%;
+    background-color: #f7f7f7;
+    display: flex;
+
+}
+
+#quote{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+#quote h1{
+    font-size: 55px;
+    font-family: futura;
+    line-height: 3.5vw;
+    text-transform: uppercase;
+}
+
+#msg{
+    margin-top: 18px;
+    padding: 0 0 0 48vh;
+    position: relative;
+}
+
+#msg #para1 h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 3vh;
+}
+
+#msg #para2{
+    margin-top: 30px;
+}
+
+#msg #para2 h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 3vh;
+}
+
 #page3{
     min-height: 140vh;
     width: 100%;
@@ -186,6 +228,86 @@ body{
     height: 100%;
     object-fit: cover;
 
+}
+
+#connect{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    background-color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#handles{
+    margin-top: 40px;
+    margin-left: 1.5%;
+    margin-right: 10px;
+}
+
+#handles p{
+    font-size: 12px;
+    color: rgb(148, 148, 148);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+#handles a{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: block;
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+
+#FAQs{
+    text-align: end;
+    margin-top: 40px;
+    margin-left: 81%;
+}
+
+#FAQs p{
+    font-size: 12px;
+    color: rgb(148, 148, 148);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+#FAQs a{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: block;
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+
+#fin-msg {
+    height: 32vh;
+    background-color: #f7f7f7;
+}
+
+#copyright{
+    margin-left: 35%;
+}
+
+#copyright a{
+    margin-left: 31px;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fin-para{
+    padding: 80px 250px 0 250px;
+}
+
+#fin-para p{
+    line-height: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
 }
 
 @media (max-width:600px){
@@ -325,5 +447,111 @@ body{
         object-fit: cover;
     
     }
-      
+ 
+    #writing{
+        height: 70vh;
+        width: 100%;
+        background-color: #f7f7f7;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #quote{
+        margin-left: 43px;
+    }
+    
+    #quote h1{
+        font-size: 38px;
+        font-family: futura;
+        line-height: 13vw;
+        text-transform: uppercase;
+    }
+    
+    #msg{
+        margin-left: 10%;
+        padding: 0;
+        margin-top: 18px;
+    }
+  
+    #connect{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        background-color: #f7f7f7;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #handles{
+        margin-top: 40px;
+        margin-left: 25px;
+        margin-right: 10px;
+    }
+    
+    #handles p{
+        font-size: 12px;
+        color: rgb(148, 148, 148);
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
+    }
+    
+    #handles a{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        display: block;
+        margin-bottom: 3px;
+        text-decoration: none;
+    }
+    
+    #FAQs{
+        text-align: start;
+        margin-top: 40px;
+        margin-left: 105px;
+    }
+    
+    #FAQs p{
+        font-size: 12px;
+        color: rgb(148, 148, 148);
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
+    }
+    
+    #FAQs a{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        display: block;
+        margin-bottom: 3px;
+        text-decoration: none;
+    }
+    
+    #fin-msg {  
+        height: 40vh;
+        background-color: #f7f7f7;
+    }
+    
+    #copyright{
+        margin-left: 13px;
+    }
+    
+    #copyright a{
+        margin-left: 10px;
+        font-size: 12px;
+        text-decoration: none;
+        color: rgb(148, 148, 148);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #fin-para{
+        padding: 20px;
+    }
+    
+    #fin-para p{
+        text-align: start;
+        font-size: 14px;
+        line-height: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
